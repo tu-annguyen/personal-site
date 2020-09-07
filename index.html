@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid bg-1 text-center" id="home">
+  <div class="title">
+    <h1 class="margin">Hi, I'm <span class="highlight">Tu-An</span>.</h1>
+    <h1 class="margin">I'm a <span class="highlight">web developer</span> and <span class="highlight">graphics designer</span>.</h1>
+    <a href="#about-me" class="fa fa-arrow-circle-down"></a>
+  </div>
+</div>
+
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#home">Tu-An Nguyen</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about-me">ABOUT</a></li>
+        <li><a href="#follow-me">FOLLOW</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact-me">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg-2 text-center" id="about-me">
+  <h2 class="margin">About Me</h2>
+  <img src="assets/images/portrait.jpg" class="img-circle" alt="portrait" width="400" height="400">
+  <p>My name is Tu-An Nguyen. I am a freshman currently studying computer science at the University of California, Santa Cruz. I have an extensive graphic design portfolio, but I am currently exploring web development to expand my technological skillset.</p>
+</div>
+
+<div class="container-fluid bg-3 text-center" id="follow-me">
+  <h2 class="margin">Follow Me</h2>
+  <a href="https://www.linkedin.com/in/tu-annguyen/" base target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://github.com/tu-annguyen" base target="_blank" class="fa fa-github"></a>
+  <a href="https://www.behance.net/tu-annguyen" base target="_blank" class="fa fa-behance"></a>
+</div>
+
+<div class="container-fluid bg-3 text-center" id="skills">
+  <h2 class="margin">My Skillset</h2>
+  <div class="row">
+    <img class="skills" src="assets/images/html5.png" title="HTML5" alt="HTML5">
+    <img class="skills" src="assets/images/css3.png" title="CSS3" alt="CSS3">
+    <img class="skills" src="assets/images/js.png" title="Javascript" alt="Javascript">
+  </div>
+  <div class="row">
+    <img class="skills" src="assets/images/java.png" title="Java" alt="Java">
+    <img class="skills" src="assets/images/python.png" title="Python" alt="Python">
+  </div>
+  <div class="row">
+    <img class="skills" src="assets/images/git.png" title="Git" alt="Git">
+  </div>
+</div>
+
+<div class="container-fluid bg-2 text-center" id="contact-me">
+  <h2 class="margin">Contact Me</h2>
+  <form data-netlify="true">
+    <!-- For laptops/desktops -->
+    <div class="form-group hidden-xs hidden-sm">
+      <input type="text" id="fname" name="firstname" placeholder="Name">
+    </div>
+    <div class="form-group hidden-xs hidden-sm">
+      <input type="email" id="lname" name="lastname" placeholder="Enter email">
+    </div>
+    <div class="form-group hidden-xs hidden-sm">
+      <input type="text" id="subject" name="subject" placeholder="Subject">
+    </div>
+    <div class="form-group hidden-xs hidden-sm">
+      <textarea id="message" name="message" placeholder="Your message" style="height:200px; resize:none;"></textarea>
+    </div>
+    <!-- For smartphones/tablets -->
+    <div class="form-group visible-xs visible-sm">
+      <input type="text" id="fname" name="firstname" placeholder="Name">
+    </div>
+    <div class="form-group visible-xs visible-sm">
+      <input type="email" id="lname" name="lastname" placeholder="Enter email">
+    </div>
+    <div class="form-group visible-xs visible-sm">
+      <input type="text" id="subject" name="subject" placeholder="Subject">
+    </div>
+    <div class="form-group visible-xs visible-sm">
+      <textarea id="message" name="message" placeholder="Your message" style="height:200px; resize:none;"></textarea>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="SUBMIT">
+    </div>
+  </form>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <a href="https://www.linkedin.com/in/tu-annguyen/" base target="_blank" class="fa fa-linkedin footer"></a>
+  <a href="https://github.com/tu-annguyen" base target="_blank" class="fa fa-github footer"></a>
+  <a href="https://www.behance.net/tu-annguyen" base target="_blank" class="fa fa-behance footer"></a>
+  <p>Tu-An Nguyen <span class="highlight">©2020</span></a></p>
+</footer>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>

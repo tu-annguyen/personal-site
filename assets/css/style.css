@@ -1,0 +1,181 @@
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* sticky navbar */
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #fabc07 !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .bg-2 {
+  padding-top: 150px;
+}
+
+/* Title screen */
+.bg-1 {
+  background-color: #292e38;
+  color: #ffffff;
+  height: 100%;
+}
+
+.title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.highlight {
+  color: #fabc07;
+  white-space: nowrap;
+}
+
+/* About me and Contact me */
+.bg-2 {
+  background-color: #474e5d;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Follow me and Skills */
+.bg-3 {
+  background-color: #ffffff;
+  color: #555555;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#follow-me {
+  padding-bottom: 20px;
+}
+
+.skills {
+  height: 200px;
+  width: 200px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-arrow-circle-down {
+  color: #fabc07;
+  font-size: 60px;
+  width: 100px;
+}
+
+.fa-linkedin {
+  background: #fabc07;
+  color: white;
+}
+
+.fa-github {
+  background: #fabc07;
+  color: white;
+}
+
+.fa-behance {
+  background: #fabc07;
+  color: white;
+}
+
+/* Contact form */
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-group.hidden-xs {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  background: #3e444f;
+  border: 0;
+  padding: 10px;
+  width: 70%;
+  height: 40px;
+}
+
+input[type=submit] {
+  padding-top: 7px;
+  width: 120px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background: none;
+  border: 3px solid;
+}
+
+input[type=submit]:hover {
+  background-color: #fabc07;
+    border: 3px solid #fabc07;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+/* Footer */
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  padding: 20px 20px 30px 20px;
+}
+
+.footer {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.margin {margin: 30px;}
+
+body {
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+p {
+  font-size: 16px;
+  padding: 16px;
+}
