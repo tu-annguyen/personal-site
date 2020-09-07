@@ -153,6 +153,11 @@ textarea:focus, input:focus {
   outline: none;
 }
 
+.g-recaptcha + div {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
 /* Footer */
 .bg-4 {
   background-color: #2f2f2f;
