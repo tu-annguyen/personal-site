@@ -120,6 +120,13 @@ body, html {
   margin-bottom: 5px;
 }
 
+@media screen and (min-width: 992px) {
+  .form-group {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+}
 .form-group.hidden-xs {
   width: 50%;
   margin: auto;
