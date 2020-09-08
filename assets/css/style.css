@@ -61,6 +61,10 @@ body, html {
   padding-bottom: 70px;
 }
 
+.img-responsive {
+  margin: auto;
+}
+
 /* Follow me and Skills */
 .bg-3 {
   background-color: #ffffff;
