@@ -50,6 +50,9 @@ body, html {
 
 .highlight {
   color: #fabc07;
+}
+
+#tu-an {
   white-space: nowrap;
 }
 
