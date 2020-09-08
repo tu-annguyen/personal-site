@@ -153,9 +153,8 @@ textarea:focus, input:focus {
   outline: none;
 }
 
-.g-recaptcha + div {
-  margin: auto;
-  margin-bottom: 15px;
+#bot-field {
+  display: none;
 }
 
 /* Footer */

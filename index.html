@@ -71,18 +71,16 @@
   </div>
 </div>
 
-<div class="container-fluid bg-2 text-center" data-netlify-recaptcha="true" id="contact-me">
+<div class="container-fluid bg-2 text-center" id="contact-me">
   <h2 class="margin">Contact Me</h2>
-  <form action="POST" data-netlify="true">
+  <form name="contact" action="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <input id="bot-filed" name="bot-field"
     <!-- For laptops/desktops -->
     <div class="form-group hidden-xs hidden-sm">
       <input type="text" name="name" placeholder="Name" required>
     </div>
     <div class="form-group hidden-xs hidden-sm">
       <input type="email" id="email" name="email" placeholder="Enter email" required>
-    </div>
-    <div class="form-group hidden-xs hidden-sm">
-      <input type="text" id="subject" name="subject" placeholder="Subject">
     </div>
     <div class="form-group hidden-xs hidden-sm">
       <textarea name="message" placeholder="Your message" style="height:200px; resize:none;" required></textarea>
@@ -93,9 +91,6 @@
     </div>
     <div class="form-group visible-xs visible-sm">
       <input type="email" name="email" placeholder="Enter email">
-    </div>
-    <div class="form-group visible-xs visible-sm">
-      <input type="text" name="subject" placeholder="Subject">
     </div>
     <div class="form-group visible-xs visible-sm">
       <textarea name="message" placeholder="Your message" style="height:200px; resize:none;"></textarea>
