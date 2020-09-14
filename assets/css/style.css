@@ -68,6 +68,30 @@ body, html {
   margin: auto;
 }
 
+.btn {
+  padding-top: 8px;
+  padding-left: 14px;
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background: none;
+  border: 3px solid;
+  border-radius: 0px;
+  border-color: white;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #fabc07;
+  border: 3px solid #fabc07;
+  color: white;
+}
+
+.btn:active, .btn:visited {
+  color: white;
+}
+
 /* Follow me and Skills */
 .bg-3 {
   background-color: #ffffff;
@@ -107,19 +131,10 @@ body, html {
   width: 100px;
 }
 
-.fa-linkedin {
+.fa-linkedin, .fa-github, .fa-behance, .fa:visited, .fa:active, .fa:focus {
   background: #fabc07;
   color: white;
-}
-
-.fa-github {
-  background: #fabc07;
-  color: white;
-}
-
-.fa-behance {
-  background: #fabc07;
-  color: white;
+  text-decoration: none;
 }
 
 /* Contact form */
