@@ -137,6 +137,14 @@ body, html {
   text-decoration: none;
 }
 
+.fa-arrow-circle-down:visited, .fa-arrow-circle-down {
+  color: #fabc07;
+}
+
+.fa-arrow-circle-down:focus {
+  background: none;
+}
+
 /* Contact form */
 .form-group {
   margin-bottom: 5px;
