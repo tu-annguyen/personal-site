@@ -131,7 +131,7 @@ body, html {
   width: 100px;
 }
 
-.fa-linkedin, .fa-github, .fa-behance, .fa:visited, .fa:active, .fa:focus {
+.fa-linkedin, .fa-github, .fa-behance, .fa:visited, .fa:active {
   background: #fabc07;
   color: white;
   text-decoration: none;
@@ -141,8 +141,8 @@ body, html {
   color: #fabc07;
 }
 
-.fa-arrow-circle-down:focus {
-  background: none;
+.fa-arrow-circle-down:focus, .fa-arrow-circle-down:active {
+  background: none !important;
 }
 
 /* Contact form */
