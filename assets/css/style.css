@@ -131,7 +131,7 @@ body, html {
   width: 100px;
 }
 
-.fa-linkedin, .fa-github, .fa-behance, .fa:visited, .fa:active {
+.socials, .socials:focus, .fa:visited, .fa:active {
   background: #fabc07;
   color: white;
   text-decoration: none;
